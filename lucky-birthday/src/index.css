@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgba(17, 53, 9, 0.735);
-  --secondary-color: #838181;
+  --primary-color: #031b5e9a;
+  --secondary-color: #93c5fd;
 }
 html {
   scroll-behavior: smooth;
@@ -9,6 +9,7 @@ body {
   margin: auto;
   width: 100%;
   max-width: 600px;
+  background-image: url("./star-bg.gif");
 }
 * {
   box-sizing: border-box;
@@ -57,7 +58,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  border: 1px solid #1cb924;
+  border: 1px solid var(--secondary-color);
   box-shadow: 0px 0px 10px 2px var(--secondary-color);
 }
 
@@ -129,4 +130,3 @@ ul {
 .privacy-policy {
   color: whitesmoke;
 }
-

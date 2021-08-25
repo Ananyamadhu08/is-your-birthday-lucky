@@ -64,8 +64,8 @@ function App() {
         }}
       >
         <div className="titleOfPage">
-          <h1>Is your birthday lucky?</h1>
-          <a href="#mainSection">👇🏼👇🏼👇🏼👇🏼</a>
+          <h1>Is Your Birthday Lucky?</h1>
+          <a href="#mainSection">Click Here</a>
         </div>
       </div>
 
@@ -87,7 +87,7 @@ function App() {
             <span role="img"> &#10060; </span>
           </div>
         </div>
-        <h2>Enter your birthday day and lucky number to continue...</h2>
+        <h2>Enter Your Birthday Day & Lucky Number To Continue...</h2>
 
         <form onSubmit={checkLuckyBirthday}>
           <label className="label" htmlFor="dateInput"></label>
@@ -131,19 +131,19 @@ function App() {
             </li>
 
             <li className="footerLink">
-              <a href="">
+              <a href="https://twitter.com/AnanyaMadhu27">
                 <i className="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
 
             <li className="footerLink">
-              <a href="">
+              <a href="https://www.linkedin.com/in/ananya-madhu-74479b206/">
                 <i className="fab fa-linkedin-in" aria-hidden="true"></i>
               </a>
             </li>
 
             <li className="footerLink">
-              <a href="">
+              <a href="https://ananya-madhu-portfolio.netlify.app/">
                 <i className="fas fa-briefcase" aria-hidden="true"></i>
               </a>
             </li>
