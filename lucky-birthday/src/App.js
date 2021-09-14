@@ -125,25 +125,31 @@ function App() {
         <footer>
           <ul>
             <li className="footerLink">
-              <a href="https://github.com/Ananyamadhu08">
+              <a href="https://github.com/Ananyamadhu08" target="_blank">
                 <i className="fab fa-github" aria-hidden="true"></i>
               </a>
             </li>
 
             <li className="footerLink">
-              <a href="https://twitter.com/AnanyaMadhu27">
+              <a href="https://twitter.com/AnanyaMadhu27" target="_blank">
                 <i className="fab fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
 
             <li className="footerLink">
-              <a href="https://www.linkedin.com/in/ananya-madhu-74479b206/">
+              <a
+                href="https://www.linkedin.com/in/ananya-madhu-74479b206/"
+                target="_blank"
+              >
                 <i className="fab fa-linkedin-in" aria-hidden="true"></i>
               </a>
             </li>
 
             <li className="footerLink">
-              <a href="https://ananya-madhu-portfolio.netlify.app/">
+              <a
+                href="https://ananya-madhu-portfolio.netlify.app/"
+                target="_blank"
+              >
                 <i className="fas fa-briefcase" aria-hidden="true"></i>
               </a>
             </li>
