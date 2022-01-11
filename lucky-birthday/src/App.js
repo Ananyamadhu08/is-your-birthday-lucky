@@ -26,7 +26,7 @@ function App() {
   //  state to store the result text and img
   const [displayResult, setDisplayResult] = useState(["", ""]);
 
-  function checkLuckyBirthday(e) {
+  const checkLuckyBirthday = e => {
     //prevent the refreshing of the page on submit of the form
     e.preventDefault();
     // to convert the date into small strings
